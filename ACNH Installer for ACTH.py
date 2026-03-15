@@ -10,7 +10,6 @@
 from pathlib import Path
 import os
 import requests
-import urllib.request
 
 home = Path.home()
 
@@ -27,10 +26,10 @@ print("the Prod.keys file and Title.keys file for you!")
 consent = input("May I download the latest eden version? (As of 15/03/2026 that is v0.2.0-rc1!): ")
 
 def downloadEden(consent):
-    if consent == "No" or consent == "no":
+    if consent == "No" or consent == "no" or consent == "nO" or consent == "NO":
         print("That's okay ^^ I will not download Eden.")
         print("This program will be terminated. Thank you for using it!")
-    elif consent == "Yes" or consent == "yes"  or consent == "Si" or consent == "Sí":
+    elif consent == "Yes" or consent == "yes"  or consent == "Si" or consent == "Sí" or consent == "yEs" or consent == "yES" or consent == "YES" or consent == "sí" or consent == "SÍ" or consent == "sÍ" or consent == "si":
         print("Okay! Downloading Eden now...")
         downloaded_file = requests.get(eden_url, params=file_type)
         sanity_check = downloaded_file.ok
@@ -42,3 +41,5 @@ def downloadEden(consent):
                 file.write(downloaded_file.content)
             print(f"Eden has been downloaded and saved to {file_name}! Now preparing for the next steps in installation!")
 downloadEden(consent)
+print(f"In phase two of installation, I will be extracting 'Eden.zip' that is located in {file_name}!")
+print("I will also be creating a folder called 'user' in the Eden directory, and I will be creating a subdirectory called 'keys' ^^")
