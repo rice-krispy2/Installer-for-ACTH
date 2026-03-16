@@ -24,4 +24,6 @@ Credits:
 
 @juli_fr - Giving me the idea to add case specific checks
 
-@president00007 - Testing to see if this can be made into an exe
+@president00007 - Converting into an exe
+
+@agusguzi - Spanish Translation
