@@ -19,3 +19,7 @@ To Use:
 1) Download and install Python from https://www.python.org/ftp/python/3.14.3/python-3.14.3-amd64.exe
 2) Open a command prompt and type the following "python -m pip install requests"
 3) Go to the directory where the script is located and double click the "ACNH Installer for ACTH.py" file
+
+Credits:
+@juli_fr - Giving me the idea to add case specific checks
+@president00007 - Testing to see if this can be made into an exe
