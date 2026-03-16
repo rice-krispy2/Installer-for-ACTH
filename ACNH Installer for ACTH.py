@@ -10,14 +10,16 @@
 from pathlib import Path
 import os
 import requests
+from zipfile import ZipFile
 
 home = Path.home()
-
 eden_url = "https://git.eden-emu.dev/eden-emu/eden/releases/download/v0.2.0-rc1/Eden-Windows-v0.2.0-rc1-amd64-msvc-standard.zip"
-
 file_type = {"downloadformat": "zip"}
+file_name = f"{home}\\Downloads\\Eden.zip"
+extracted_eden = f"{home}\\Downloads\\Eden"
+user_dir = f"{extracted_eden}\\user"
+keys_dir = f"{user_dir}\\keys"
 
-file_name = f"{home}\Downloads\Eden.zip"
 
 # Print text to the console
 print("Hello! Welcome to the official installer for ACNH.")
@@ -43,3 +45,16 @@ def downloadEden(consent):
 downloadEden(consent)
 print(f"In phase two of installation, I will be extracting 'Eden.zip' that is located in {file_name}!")
 print("I will also be creating a folder called 'user' in the Eden directory, and I will be creating a subdirectory called 'keys' ^^")
+
+def setupEden():
+    with ZipFile(file_name, 'r') as zObject:
+        zObject.extractall(path=f"{extracted_eden}")
+    print(f"Eden has been extracted and is available in {extracted_eden}!")
+    print("Now creating directory 'user'!")
+    if not os.path.exists(user_dir):
+        os.makedirs(user_dir)
+    print("'user' directory created!")
+    if not os.path.exists(keys_dir):
+        os.makedirs(keys_dir)
+    print("'keys' directory created!")
+setupEden()
