@@ -9,4 +9,4 @@ Right now the program only downloads the Eden Emulator. The current roadmap is a
 3) Move the Prod.keys and/or Title.keys files into the "keys" folder
 
 
-We do NOT support piracy. For support with this program, Create a ticket in server and ping Kristy (AKA me). Do NOT go to any other moderators nor the Owner/Co-Owner
+We do NOT support piracy. For support with this program, Create an issue in the issues tab. Support will not be given on the discord server.
