@@ -14,3 +14,8 @@ This program does NOT download the keys or firmwares for you! Those must be acqu
 We do NOT support piracy. For support with this program, Create an issue in the issues tab. Support will not be given on the discord server.
 
 I am not affiliated with Nintendo in any fashion. I'm just a programmer that has way too much time on their hands right now.
+
+To Use:
+1) Download and install Python from https://www.python.org/ftp/python/3.14.3/python-3.14.3-amd64.exe
+2) Open a command prompt and type the following "python -m pip install requests"
+3) Go to the directory where the script is located and double click the "ACNH Installer for ACTH.py" file
