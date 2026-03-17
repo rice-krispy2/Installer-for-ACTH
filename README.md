@@ -1,3 +1,5 @@
+# ACNH Setup Tool
+
 This program aims to assist in the installation of the Eden Emulator for use with Animal Crossing: New Horizons
 
 This code contains NO copyrighted code as it is merely downloading files readily accessible on the internet. I do not support piracy, nor will I ever support piracy.
