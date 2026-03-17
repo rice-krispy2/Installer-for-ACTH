@@ -27,3 +27,5 @@ Credits:
 @president00007 - Converting into an exe
 
 @agusguzi - Spanish Translation
+
+@melymels94 - Emotional Support
