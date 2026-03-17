@@ -77,5 +77,5 @@ Creditos:
 
 @melymels94 - Suporte emocional e criando uma comunidade tão adorável
 
-For an italian translation, please go to this link!:
+For an italian translation, [click here](https://github.com/President00007/Installer-for-ACTH-ITA-TRANSLATION-):
 https://github.com/President00007/Installer-for-ACTH-ITA-TRANSLATION-
