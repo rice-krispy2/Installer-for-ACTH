@@ -34,6 +34,8 @@ Credits:
 
 @melymels94 - Emotional Support and creating such a lovely community
 
+@levonikke - Portuguese Translation
+
 Portugese Translation:
 
 Este programa é pensado para auxiliar na instalação do Emulador Eden para o uso do Animal Crossing: New Horizons
