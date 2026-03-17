@@ -28,4 +28,4 @@ Credits:
 
 @agusguzi - Spanish Translation
 
-@melymels94 - Emotional Support
+@melymels94 - Emotional Support and creating such a lovely community
