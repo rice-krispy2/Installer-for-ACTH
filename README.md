@@ -80,3 +80,46 @@ Creditos:
 @melymels94 - Suporte emocional e criando uma comunidade tão adorável
 
 For an italian translation, [click here](https://github.com/President00007/Installer-for-ACTH-ITA-TRANSLATION-)
+
+# Spanish Translation
+
+Este programa tiene como objetivo ayudar en la instalación de el Emulador Eden para usarlo con el Animal Crossing: New Horizons
+
+Este código NO contiene código protegido por derechos de autor, ya que se trata de simplemente descargar archivos fácilmente accesibles en internet. No apoyo ni apoyaré la piratería. Este programa está pensado para ser usado por nuevos miembros del servidor de discord Animal Crossing Treasure Hub para emuladores Yuzu-Based que no saben cómo instalarlo. 
+
+Este programa hace lo siguiente:
+
+Descarga la última versión de Eden. ( De momento 0.2.0-rc2).
+Extrae Eden.
+3- Realiza una instalación portable de Eden.
+4.- Instala el firmware y keys para el usuario siempre que estén presentes en la carpeta “descargas” del usuario. 
+
+Este programa NO descarga los keys o firmware por ti; estos archivos deben ser descargados ANTES de ejecutar el programa
+
+No estoy afiliado a Nintendo de ninguna forma, solo soy un programador que tiene mucho tiempo libre en sus manos. 
+
+Para usar:
+
+1- Descarga e instala Python desde https://www.python.org/ftp/python/3.14.3/python-3.14.3-amd64.exe
+Abre una línea de comando y escribe lo siguiente: "python -m pip install requests"
+Ve al directorio donde está localizado el script y dale doble click al archivo  “ACNH Installer for ACTH.py”
+
+Alternativa: 
+
+Ve a la sección de “releases”
+Descarga y ejecuta el .exe
+
+No apoyamos la piratería. Si tienes alguna duda, problema o comentario respecto al script, dirígete a la sección Issues de GitHub. No se brinda soporte del script en el Discord
+
+Créditos:
+
+@juli_fr Por darme la idea de verificar caracteres específicos en el input. Revisión de la traducción al español.
+
+@president00007- Por convertirlo en un .exe. Traducción al italiano. 
+
+@agusguzi -  Traducción al español.
+
+@melymels94- Por el apoyo emocional y por crear una comunidad maravillosa. 
+
+@levonikke  - Traducción al portugues 
+
