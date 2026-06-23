@@ -18,7 +18,7 @@ home = Path.home()
 # Store the user's download folder
 downloads_folder = f"{home}\\Downloads"
 # Store eden's url as a string for use later
-eden_url = "https://git.eden-emu.dev/eden-emu/eden/releases/download/v0.2.0-rc2/Eden-Windows-v0.2.0-rc2-amd64-msvc-standard.zip"
+eden_url = "https://stable.eden-emu.dev/v0.2.0/Eden-Windows-v0.2.0-amd64-msvc-standard.zip"
 # Store the type of download
 file_type = {"downloadformat": "zip"}
 # Set the file name of the eden zip
@@ -45,13 +45,13 @@ consent = input("May I download the latest eden version? (As of 16/03/2026 that 
 def downloadEden(consent):
     # If consent is not given, Terminate the program
     # I know the if statement is a bit lengthy but this ensures every possible combination of the word "No"
-    if consent == "No" or consent == 'N' or consent == 'n' or consent == "no" or consent == "nO" or consent == "NO":
+    if consent == "No" or consent == "no" or consent == "nO" or consent == "NO":
         print("That's okay ^^ I will not download Eden.")
         print("This program will be terminated. Thank you for using it!")
     # If consent is given, Download eden
     # Again, another lengthy elif statement but this ensures every spelling of yes in both english and spanish
-    elif consent == "Yes" or consent == "yes" or consent == 'Y' or consent == 'y' or consent == 'S' or consent == 's' or consent == "Si" or consent == "Sí" or consent == "yEs" or consent == "yES" or consent == "YES" or consent == "sí" or consent == "SÍ" or consent == "sÍ" or consent == "sI" or consent == "si":
-        # Tell the user we're downloading eden
+    elif consent == "Yes" or consent == "yes"  or consent == "Si" or consent == "Sí" or consent == "yEs" or consent == "yES" or consent == "YES" or consent == "sí" or consent == "SÍ" or consent == "sÍ" or consent == "si":
+        # Tell the user we're downloading ede
         print("Okay! Downloading Eden now...")
         # Send a request to Eden's gitlab and download
         downloaded_file = requests.get(eden_url, params=file_type)
